@@ -1,3 +1,3 @@
 # jsPractice
 
-A collection of various practices and solutions to publicly available challenges
+A collection of various JavaScript practices and solutions to publicly available challenges

@@ -1,7 +1,7 @@
 var plusOne = function(digits) {
   var carry = 1;
   var result = [];
-  for(var i = digits.length-1; i >= 0; i--) {
+  for(var i = digits.length - 1; i >= 0; i--) {
     var number = digits[i] + carry;
     if(number < 10) {
       result.unshift(number);

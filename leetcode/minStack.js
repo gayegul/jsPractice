@@ -1,6 +1,6 @@
 /*
-Design a stack that supports push, pop, top, and retrieving
-the minimum element in constant time.
+Design a stack that supports push, pop, top, and
+retrieving the minimum element in constant time.
 push(x) -- Push element x onto stack.
 pop() -- Removes the element on top of the stack.
 top() -- Get the top element.
@@ -15,7 +15,6 @@ var MinStack = function() {
 MinStack.prototype.push = function(x) {
   if(!this.min.length) {
     this.min.push(x);
-
   } else {
     if(this.min[this.min.length - 1] >= x) {
       this.min.push(x);
